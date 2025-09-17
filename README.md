@@ -1,4 +1,4 @@
-# GeekGamer Application
+# GeekGamer Todo Application
 
 This is the backend and frontend of the **GeekGamer** application. The backend is powered by Node.js and MongoDB, while the frontend is built with your chosen framework (e.g., React).
 
