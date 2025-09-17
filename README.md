@@ -21,3 +21,21 @@ JWT_SECRET=abhishek
 GOOGLE_CLIENT_ID=YOUR CLIENT_ID
 GOOGLE_CLIENT_SECRET= YOUR_GOOGLE_SECRET
 SESSION_SECRET=your-session-secret
+
+## Frontend
+
+```
+cd frontend
+npm install
+npm run dev
+
+## Backend
+
+```
+cd backend
+npm install
+nodemon index.js
+
+
+
+
