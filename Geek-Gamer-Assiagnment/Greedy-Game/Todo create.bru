@@ -1,0 +1,30 @@
+meta {
+  name: Todo create
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:5000/api/todo/
+  body: json
+  auth: inherit
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YzdmZDVjYTM1N2FmMzczYjk4YjMxMyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzU4MDQ2Nzk0LCJleHAiOjE3NTgxMzMxOTR9.FYiZerD-lpZ0HXiblEESw0vIToYgmrLLQIz6d6bh428
+}
+
+body:json {
+  {
+    "title": "Finish DB connection",
+    "description": "Connect to the mongo database and test the application",
+    "dueDate": "2025-09-23",
+    "dueTime": "12:00"
+  }
+  
+  
+}
+
+settings {
+  encodeUrl: true
+}

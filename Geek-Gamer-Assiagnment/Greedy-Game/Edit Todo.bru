@@ -1,0 +1,25 @@
+meta {
+  name: Edit Todo
+  type: http
+  seq: 6
+}
+
+put {
+  url: http://localhost:5000/api/todo/68c9a41c65bb5aa7ecf1ac66
+  body: json
+  auth: inherit
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YzlhMjI2OTE2YWU4ZjM2MDcxMWVlOSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzU4MDQ0NzE5LCJleHAiOjE3NTgxMzExMTl9.J6UKMN0DAaGYA4M2Fr1HngYewpzEnlYLNf0Dtebck2A
+}
+
+body:json {
+  {
+    "title":"Finish MERN Frontend"
+  }
+}
+
+settings {
+  encodeUrl: true
+}
